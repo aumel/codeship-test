@@ -7,6 +7,8 @@ machine:
     - curl -L http://git.io/1gisog | /bin/sh
     - ls -a
     - pwd
+    - cp /home/ubuntu/start_test.js /home/ubuntu/codeship-test/start_test.js
+    - cp /home/ubuntu/phantom_runner.js /home/ubuntu/codeship-test/phantom_runner.js
 test:
   override:
-    - node /home/ubuntu/start_test.js
+    - node start_test.js
