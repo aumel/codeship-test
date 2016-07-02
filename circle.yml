@@ -3,8 +3,9 @@ machine:
     version: 0.10.33
   pre:
     - curl https://install.meteor.com | /bin/sh
-    - ls -a
+    - meteor --version
     - curl -L http://git.io/1gisog | /bin/sh
+    - ls -a
 test:
   override:
     - node start_test.js
