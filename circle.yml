@@ -2,13 +2,7 @@ machine:
   node:
     version: 0.10.33
   pre:
-    - curl https://install.meteor.com | /bin/sh
-    - meteor --version
-    - curl -L http://git.io/1gisog | /bin/sh
-    - ls -a
-    - pwd
-    - cp /home/ubuntu/start_test.js /home/ubuntu/codeship-test/start_test.js
-    - cp /home/ubuntu/phantom_runner.js /home/ubuntu/codeship-test/phantom_runner.js
+    - curl -L https://git.io/vKvb4 | /bin/sh
 test:
   override:
-    - node start_test.js
+    - node /home/ubuntu/start_test.js
