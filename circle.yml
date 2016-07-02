@@ -9,6 +9,4 @@ machine:
     - pwd
 test:
   override:
-    - pwd
-    - ls -a
-    - node start_test.js
+    - node /home/ubuntu/start_test.js
