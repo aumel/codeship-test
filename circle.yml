@@ -6,6 +6,9 @@ machine:
     - meteor --version
     - curl -L http://git.io/1gisog | /bin/sh
     - ls -a
+    - pwd
 test:
   override:
+    - pwd
+    - ls -a
     - node start_test.js
