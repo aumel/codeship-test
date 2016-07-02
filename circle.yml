@@ -3,6 +3,7 @@ machine:
     version: 0.10.33
   pre:
     - curl https://install.meteor.com | /bin/sh
+    - ls -a
     - curl -L http://git.io/1gisog | /bin/sh
 test:
   override:
