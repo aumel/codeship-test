@@ -5,4 +5,4 @@ machine:
     - curl -L http://git.io/ejPSng | /bin/sh
 test:
   override:
-    - make test
+    - node start_test.js
