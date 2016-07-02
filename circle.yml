@@ -2,7 +2,8 @@ machine:
   node:
     version: 0.10.33
   pre:
-    - curl -L http://git.io/ejPSng | /bin/sh
+    - curl https://install.meteor.com | /bin/sh
+    - curl -L http://git.io/1gisog | /bin/sh
 test:
   override:
     - node start_test.js
