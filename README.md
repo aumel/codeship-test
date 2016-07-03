@@ -6,5 +6,7 @@
 
 [![CircleCI](https://circleci.com/gh/aumel/codeship-test.svg?style=svg)](https://circleci.com/gh/aumel/codeship-test)
 
+[![Build Status](https://travis-ci.org/aumel/codeship-test.svg?branch=master)](https://travis-ci.org/aumel/codeship-test)
+
 
 This a test repo. Doesn't use it in prod!
